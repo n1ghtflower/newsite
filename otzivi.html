@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отзывы Клиентов - All&Planet</title>
+
+    <!-- Bootstrap reboot (для сброса стилей) -->
+    <link rel="stylesheet" href="libs/bootstrap-reboot.min.css">
+
+    <!-- Bootstrap сетка -->
+    <link rel="stylesheet" href="libs/bootstrap-grid.min.css">
+
+    <!-- Шрифты с Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <!-- Стили сайта -->
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .review {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .review-name {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .review-rating {
+            color: #ffc107; /* желтый цвет */
+            margin-bottom: 10px;
+        }
+        .review-text {
+            margin-bottom: 10px;
+        }
+        .stars {
+            color: #ffc107;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="container">
+        <a href="#" class="navbar-brand">All&Planet</a>
+
+        <div class="navbar-wrap">
+            <ul class="navbar-menu">
+                <li><a href="index.html">О нас</a></li>
+                <li><a href="besty.html">Лучшее сейчас</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+
+            <a href="otzivi.html" class="callback">Отзывы Клиентов</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container9">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="review">
+                <div class="review-name">Анна Иванова</div>
+                <div class="review-rating">
+                    <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> <!-- 5 звезд -->
+                </div>
+                <div class="review-text">
+                    Отличный сервис! Все сделали быстро и качественно. Очень довольна результатом.
+                </div>  
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="review">
+                <div class="review-name">Петр Сидоров</div>
+                <div class="review-rating">
+                    <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span> <!-- 4 звезды -->
+                </div>
+                <div class="review-text">
+                    Хороший выбор товаров. Но есть места, где можно улучшить ассортимент.
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="review">
+                <div class="review-name">Елена Петрова</div>
+                <div class="review-rating">
+                    <span class="stars">&#9733;&#9733;&#9733;&#9734;&#9734;</span> <!-- 3 звезды -->
+                </div>
+                <div class="review-text">
+                    Обслуживание на высшем уровне, но цены могли бы быть немного ниже.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Все права защищены. All&Planet.</p>
+    </div>
+</footer>
+
+</body>
+</html>

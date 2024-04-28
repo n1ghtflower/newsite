@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HTML & CSS практика от AVIS TV</title>
+
+	<!-- Bootstrap reboot (для сброса стилей) -->
+	<link rel="stylesheet" href="libs/bootstrap-reboot.min.css">
+
+	<!-- Bootstrap сетка -->
+	<link rel="stylesheet" href="libs/bootstrap-grid.min.css">
+
+	<!-- Шрифты с Google Fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+	<!-- Стили сайта -->
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    
+
+    
+
+	<nav class="navbar">
+		<div class="container">
+			<a href="#" class="navbar-brand">All&Planet</a>
+
+			<div class="navbar-wrap">
+				<ul class="navbar-menu">
+				<li><a href="index.html">О нас</a></li>
+				<li><a href="besty.html">Лучшее сейчас</a></li>
+				
+				<li><a href="contact.html">Контакты</a></li>
+			</ul>
+
+			<a href="otzivi.html" class="callback">Отзывы Клиентов</a>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Раздел "О нас" -->
+    <section id="best" class="section">
+        
+    </section>
+
+    <!-- Родительский контейнер для двух карточек с Турцией -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <!-- Первая карточка с Турцией -->
+            <div class="col-md-4">
+                <div class="product">
+                    <div class="image">
+                        <img src="turkey.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <h1>Турция</h1>
+                        <ul class="rating">
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star-half"></ion-icon></li>
+                        </ul>
+                        <div class="info-price">
+                            <span class="price">От 65000 руб</span>
+                            <!-- В вашем файле HTML -->
+                            <a href="turkey.html" class="add-to-cart"><ion-icon name="information-circle-outline"></ion-icon></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="product">
+                    <div class="image">
+                        <img src="sochi.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <h1>Сочи</h1>
+                        <ul class="rating">
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star"></ion-icon></li>
+                        </ul>
+                        <div class="info-price">
+                            <span class="price">От 45000 руб</span>
+                            <a href="sochi.html" class="add-to-cart"><ion-icon name="information-circle-outline"></ion-icon></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Родительский контейнер для  карточек -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <!-- Первая карточка с Турцией -->
+            <div class="col-md-4">
+                <div class="product">
+                    <div class="image">
+                        <img src="dubai.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <h1>Дубай</h1>
+                        <ul class="rating">
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star-half"></ion-icon></li>
+                        </ul>
+                        <div class="info-price">
+                            <span class="price">От 76400 руб</span>
+                            <a href="dubai.html" class="add-to-cart"><ion-icon name="information-circle-outline"></ion-icon></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Вторая карточка с Турцией -->
+            <div class="col-md-4">
+                <div class="product">
+                    <div class="image">
+                        <img src="rim.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <h1>Рим</h1>
+                        <ul class="rating">
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                        </ul>
+                        <div class="info-price">
+                            <span class="price">От 81340 руб</span>
+                            <a href="rim.html" class="add-to-cart"><ion-icon name="information-circle-outline"></ion-icon></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/ionicons@4.1.2/dist/ionicons.js"></script>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Все права защищены. All&Planet.</p>
+        </div>
+    </footer>
+
+	
+</body>
+</html>	
